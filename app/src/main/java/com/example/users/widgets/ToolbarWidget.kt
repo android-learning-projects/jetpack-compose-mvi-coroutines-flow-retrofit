@@ -47,9 +47,7 @@ fun ToolbarWidget(
         },
     ) {
         viewModel.getAllUsers()
-        val result = viewModel.users.collectAsState().value
-        Log.d("TAG", "ToolbarWidget: ${result.message}")
-        when (result) {
+        when (val result = viewModel.users.collectAsState().value) {
             is Resource.Loading -> LoadingWidget()
             is Resource.Success -> SuccessWidget(list = result.data ?: emptyList())
             is Resource.Error -> ErrorWidget(error = result.message ?: "Unknown error!")
