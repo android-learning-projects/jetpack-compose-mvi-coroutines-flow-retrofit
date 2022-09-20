@@ -3,6 +3,7 @@ package com.example.users.ui.theme
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
 import androidx.compose.runtime.Composable
+import androidx.compose.ui.tooling.preview.Preview
 import com.example.users.domain.module.User
 import com.example.users.widgets.UserWidget
 
@@ -16,4 +17,14 @@ fun SuccessWidget(list: List<User>) {
             )
         }
     }
+}
+
+@Preview
+@Composable
+fun SuccessWidgetPreview(){
+    val list = mutableListOf<User>()
+    repeat(5){
+        list.add(User(id = 0, name = "Rajan","rajan@gmail.com","male","active"))
+    }
+    SuccessWidget(list = list)
 }
