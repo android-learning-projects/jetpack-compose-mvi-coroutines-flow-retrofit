@@ -13,6 +13,7 @@ Sample project with MVI architecture in jetpack compose
 3. [Flow Operators - The Ultimate Guide to Kotlin Flows (Part 2)](https://www.youtube.com/watch?v=sk3svS_fzZM&t=1073s)
 4. [StateFlow & SharedFlow - The Ultimate Guide to Kotlin Flows (Part 3)](https://www.youtube.com/watch?v=za-EEkqJLCQ)
 5. [Unit Testing Flows - The Ultimate Guide to Kotlin Flows (Part 4)](https://www.youtube.com/watch?v=rk6aKkWqqcI)
+6. [How to Build an MVI Clean Code Weather App in Android Studio (Jetpack Compose)](https://www.youtube.com/watch?v=eAbKK7JNxCE)
 
 ### Output
 <img src="https://raw.githubusercontent.com/livingstonantony70/mvi-jetpackcompose-user-list/master/doc/1663675699545.JPEG" width="300">
